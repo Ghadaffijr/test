@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    height: 50vh;
+    background-color: #0066FF;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: ;
+}
+
+.header nav{
+    padding: 20px;
+}
+
+.header nav ul{
+    list-style: none;
+}
+
+.header nav li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+}
+
+.header nav a:hover{
+    color: black;
+}
+
+.product{
+    color: white;
+    font-family: calibri;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.product h1{
+    font-size: 100px;
+}
+
+.product p{
+    font-size: 20px;
+}
+
+.content{
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.content h2{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.start button{
+    background: #0066FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pages{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.pages-content{
+    width: 50%;
+    font-family: calibri;
+}
+
+.pages h2{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.pages p{
+    font-size: 20px;
+}
+
+.explore button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #0066FF;
+    color: white;
+    border: none;
+}
+
+.rock{
+    width: 30%;
+    height: auto;
+}
+
+.album{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.album-content{
+    width: 30%;
+    font-family: calibri;
+}
+
+.album h2, p{
+    margin: 5px;
+}
+
+.explore-btn button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #0066FF;
+    color: white;
+    border: none;
+}
+
+.album-img{
+    width: 30%;
+    height: auto;
+}
+
+.blog{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-cnt{
+    width: 30%;
+    font-family: calibri;
+}
+
+.blog h2, p{
+    margin: 5px;
+}
+
+.blog-btn button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #0066FF;
+    color: white;
+    border: none;
+}
+
+.blog-img{
+    width: 30%;
+    height: auto;
+}
+
+.design{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-cnt{
+    background: #0066FF;
+    width: 50%;
+    height: 40%;
+    padding: 50px;
+    font-family: calibri;
+    border-radius: 10px;
+    color: white;
+}
+
+.design-cnt h3, p{
+    padding: 2px;
+}
+
+.design-btn button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: white;
+    color: #0066FF;
+    border: none;
+}
+
+.footer-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socials a{
+    padding: 5px;
+}
